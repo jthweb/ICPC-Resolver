@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JThweb Resolver | BCPC</title>
+    <link rel="stylesheet" href="src/styles.css">
+    <!-- The 'defer' attribute ensures the script runs after the HTML is parsed -->
+    <script src="src/script.js" defer></script>
+</head>
+
+<body>
+    <div id="input-screen" class="screen">
+        <div class="center">
+            <h1 id="title" class="title">JThweb Resolver</h1>
+            <h3 id="title_1" class="title_1">for BCPC</h3>
+            <div class="gap"></div>
+            <div id="form" class="form-container">
+                <div class="form-component">
+                    <label for="option">Option</label>
+                    <select id="option" onchange="changeOption()">
+                        <option value="json">Raw JSON</option>
+                        <option value="codeforces">Codeforces API</option>
+                    </select>
+                </div>
+                <div id="input-json" class="input-container">
+                    <label class="input-file">
+                        Upload a JSON file
+                        <input id="file" type="file" accept="application/json" onchange="readJSON()">
+                    </label>
+                </div>
+                <div id="input-codeforces" class="input-container" style="display: none;">
+                    <div class="form-component">
+                        <label for="contestId">Contest ID</label>
+                        <input type="number" id="contestId" placeholder="Enter Contest ID" onchange="fetchContest()">
+                    </div>
+                    <div class="form-component">
+                        <label for="apiKey"><a href="https://codeforces.com/settings/api" target="_blank">API
+                                Key</a></label>
+                        <input type="password" id="apiKey" placeholder="Enter API Key" onchange="fetchContest()">
+                    </div>
+                    <div class="form-component">
+                        <label for="apiSecret"><a href="https://codeforces.com/settings/api" target="_blank">API
+                                Secret</a></label>
+                        <input type="password" id="apiSecret" placeholder="Enter API Secret" onchange="fetchContest()">
+                    </div>
+                </div>
+                <div class="form-component">
+                    <label for="json-data">Contest data (JSON format)</label>
+                    <textarea id="json-data" spellcheck="false"></textarea>
+                </div>
+                <button onclick="startContest()">Submit</button>
+                <!-- This new div will display validation errors -->
+                <div id="error-message" class="error-message"></div>
+            </div>
+        <label for="json-data">©2025 <a href="https://github.com/JThweb">JThweb</a>. All right reserved. Made for BCPC.</label>
+        </div>
+    </div>
+    <div id="splash-screen" class="screen hidden">
+        <div class="center">
+            <h1 id="contest-name" class="title"></h1>
+            <div class="gap"></div>
+            <h2 id="pending-count" class="subtitle"></h2>
+        </div>
+    </div>
+    <div id="output-screen" class="screen hidden">
+        <div id="header" class="header">
+            <div class="header-rank">Rank</div>
+            <div class="header-logo"></div>
+            <div class="header-name">Name</div>
+            <div class="header-score">Solved</div>
+            <div class="header-time">Time</div>
+        </div>
+        <div id="standings" class="standings"></div>
+    </div>
+
+</body>
+
+
+</html>
