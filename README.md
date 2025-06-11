@@ -126,3 +126,7 @@ If you successfully click the submit button, a splash screen will appear. Press 
 ## Contributing
 
 If you find any bugs or have any suggestions, feel free to open an issue or a pull request.
+
+## Licence
+
+This project is licenced under the GNU GPLv3 (See [LICENSE](license) for more details). You are free to edit and repulish this as long as you credit the creator. (here, me!)
