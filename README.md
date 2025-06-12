@@ -36,7 +36,7 @@ The input JSON should have the format as the following example:
     {
       "name": "MIT",
       "logo": "img/mit.png",
-      "rank": "novice
+      "rank": "novice"
     },
     {
       "name": "CMU",
@@ -63,7 +63,7 @@ The input JSON should have the format as the following example:
       "points": 1
     },
     {
-      "name": "MIT,
+      "name": "MIT",
       "problemIndex": "A",
       "submitMinutes": 30,
       "points": 1
