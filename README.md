@@ -78,7 +78,7 @@ The input JSON should have the format as the following example:
 }
 ```
 
-2 python files - `small_generate.py` and `large_generate.py` generate small or large example data forthe resolver and exports them as `resolver.json` in the same directory.
+2 python files - `small_generate.py` and `large_generate.py` generate small or large example data for the resolver and exports them as `resolver.json` in the same directory. You can use this to generate test data for the resolver.
 
 
 Explanation:
