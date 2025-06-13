@@ -2,14 +2,11 @@
 
 The ICPC Resolver is a tool designed to simulate the frozen period of an ICPC-style contest, revealing the final submissions' results in an interesting way before displaying the final standings. The concept and design are inspired by the [official ICPC Resolver](https://tools.icpc.global/resolver/) and [kitsunehivern OI-resolver](https://github.com/kitsunehivern/OI-Resolver).
 
-![demo](/img/demo.png)
-
-
 ## Usage
 
 ### Open the tool
 
-You can access the tool at [icpcresolver.is_an.app](https://icpcresolver.is-an.app). You can either use it online or clone the repository and open the `index.html` file in your browser.
+You can access the tool at [icpcresolver.is-local.org](https://icpcresolver.-loacl.org). You can either use it online or clone the repository and open the `index.html` file in your browser.
 
 ### Prepare the data
 
@@ -36,7 +33,7 @@ The input JSON should have the format as the following example:
     {
       "name": "MIT",
       "logo": "img/mit.png",
-      "rank": "novice
+      "rank": "novice"
     },
     {
       "name": "CMU",
@@ -63,7 +60,7 @@ The input JSON should have the format as the following example:
       "points": 1
     },
     {
-      "name": "MIT,
+      "name": "MIT",
       "problemIndex": "A",
       "submitMinutes": 30,
       "points": 1
@@ -89,7 +86,7 @@ Explanation:
     - `contest.penaltyMinutes`: Penalty in minutes for each submission before the first highest positive score submission for each problem.
 - `problems`: Information of the problems.
     - `problems.index`: Index of the problem.
-    - `problems.points`: Maximum points for the problem.
+    - `problems.points`: Points for each correct answer (1)
 - `contestants`: Information of the contestants.
     - `contestants.name`: Name of the contestant.
     - `contestants.logo` (*optional*): Path to the logo of the contestant.
