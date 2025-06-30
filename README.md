@@ -6,7 +6,7 @@ The ICPC Resolver is a tool designed to simulate the frozen period of an ICPC-st
 
 ### Open the tool
 
-You can access the tool at [icpcresolver.is-local.org](https://icpcresolver.-loacl.org). You can either use it online or clone the repository and open the `index.html` file in your browser.
+You can access the tool at [icpcresolver.is-an.app](https://icpcresolver.is-an.app). You can either use it online or clone the repository and open the `index.html` file in your browser.
 
 ### Prepare the data
 
