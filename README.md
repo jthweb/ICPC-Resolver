@@ -77,11 +77,6 @@ The input JSON should have the format as the following example:
 }
 ```
 
-2 python files - `small_generate.py` and `large_generate.py` generate small or large example data for the resolver and exports them as `resolver.json` in the same directory. You can use this to generate example data for the resolver. (not the actual data)
-
-> The python files only generate a simulated contest, with teams and other submissions generated. 
-> For a real contest, please fill in the json file yourself.
-
 
 Explanation:
 - `contest`: Information of the contest.
@@ -101,6 +96,14 @@ Explanation:
     - `submissions.problemIndex`: Index of the problem.
     - `submissions.submitMinutes`: Time elapsed from the start of the contest until the submission in minutes.
     - `submissions.points`: 1 point for correct answers and 0 points for wrong answers.
+
+
+Two python files - `small_generate.py` and `large_generate.py` generate small or large example data for the resolver and exports them as `resolver.json` in the same directory. You can use this to generate example data for the resolver. (not the actual data)
+
+The python files only generate a simulated contest, with teams and other submissions artificially generated.
+
+For a real contest, please fill in the json file yourself using your contest data. (This web app does not use the `event-feed.json` format as done by the original ICPC resolver)
+
 
 #### Codeforces contest
 
