@@ -75,7 +75,10 @@ The input JSON should have the format as the following example:
 }
 ```
 
-2 python files - `small_generate.py` and `large_generate.py` generate small or large example data for the resolver and exports them as `resolver.json` in the same directory. You can use this to generate test data for the resolver.
+2 python files - `small_generate.py` and `large_generate.py` generate small or large example data for the resolver and exports them as `resolver.json` in the same directory. You can use this to generate example data for the resolver. (not the actual data)
+
+> The python files only generate a simulated contest, with teams and other submissions generated. 
+> For a real contest, please fill in the json file yourself.
 
 
 Explanation:
@@ -119,6 +122,8 @@ If you successfully click the submit button, a splash screen will appear. Press 
 - If smooth scrolling is not working, enable it in the browser settings (e.g. `chrome://flags/#smooth-scrolling`).
 
 - If the contestant's logo is not displayed, make sure the path is correct, or try pressing `R` to reset the resolver.
+
+- You can run a test version using the data from [test_data.json](test_data.json).
 
 ## Contributing
 

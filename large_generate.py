@@ -3,7 +3,7 @@ import json
 
 # Contest and problems
 contest = {
-    "name": "Birla Competitive Programming Competition - Example Contest",
+    "name": "Test Collegiate Programming Contest",
     "durationMinutes": 120,
     "freezeDurationMinutes": 60,
     "penaltyMinutes": 15
