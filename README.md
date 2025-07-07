@@ -2,6 +2,8 @@
 
 The ICPC Resolver is a tool designed to simulate the frozen period of an ICPC-style contest, revealing the final submissions' results in an interesting way before displaying the final standings. The concept and design are inspired by the [official ICPC Resolver](https://tools.icpc.global/resolver/) and [kitsunehivern OI-resolver](https://github.com/kitsunehivern/OI-Resolver).
 
+---
+
 ## Usage
 
 ### Open the tool
