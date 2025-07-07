@@ -37,6 +37,10 @@
     {
       "index": "H",
       "points": 1
+    },
+    {
+      "index": "I",
+      "points": 1
     }
   ],
   "contestants": [
@@ -183,472 +187,676 @@
   ],
   "submissions": [
     {
-      "name": "Quick Ninjas",
-      "problemIndex": "H",
-      "submitMinutes": 65,
+      "name": "Infinte Loopers",
+      "problemIndex": "B",
+      "submitMinutes": 75,
       "points": 1
     },
     {
       "name": "CodeRunners",
       "problemIndex": "D",
-      "submitMinutes": 107,
-      "points": 0
+      "submitMinutes": 26,
+      "points": 1
     },
     {
       "name": "CodeCrafters",
-      "problemIndex": "D",
-      "submitMinutes": 81,
-      "points": 1
-    },
-    {
-      "name": "Syntax Terror",
-      "problemIndex": "D",
-      "submitMinutes": 35,
-      "points": 1
-    },
-    {
-      "name": "Runtime Terror",
       "problemIndex": "D",
       "submitMinutes": 24,
       "points": 1
     },
     {
+      "name": "Syntax Terror",
+      "problemIndex": "D",
+      "submitMinutes": 44,
+      "points": 1
+    },
+    {
+      "name": "Runtime Terror",
+      "problemIndex": "D",
+      "submitMinutes": 114,
+      "points": 1
+    },
+    {
       "name": "AlgoRythm",
       "problemIndex": "D",
-      "submitMinutes": 57,
+      "submitMinutes": 17,
       "points": 1
     },
     {
       "name": "Ctrl+Shift+Code",
       "problemIndex": "D",
-      "submitMinutes": 118,
+      "submitMinutes": 66,
       "points": 1
     },
     {
       "name": "JurySmashers",
       "problemIndex": "D",
-      "submitMinutes": 113,
-      "points": 0
+      "submitMinutes": 118,
+      "points": 1
     },
     {
       "name": "Monkey Players",
       "problemIndex": "D",
-      "submitMinutes": 20,
+      "submitMinutes": 42,
       "points": 1
     },
     {
       "name": "See_Plus+",
       "problemIndex": "D",
-      "submitMinutes": 36,
+      "submitMinutes": 46,
       "points": 1
     },
     {
       "name": "JThweb",
-      "problemIndex": "D",
-      "submitMinutes": 18,
-      "points": 1
-    },
-    {
-      "name": "Bit Busters",
-      "problemIndex": "D",
-      "submitMinutes": 108,
-      "points": 1
-    },
-    {
-      "name": "Byte Bandits",
-      "problemIndex": "D",
-      "submitMinutes": 70,
-      "points": 1
-    },
-    {
-      "name": "HackStreet Boys",
-      "problemIndex": "D",
-      "submitMinutes": 65,
-      "points": 1
-    },
-    {
-      "name": "Codestallation",
-      "problemIndex": "D",
-      "submitMinutes": 84,
-      "points": 1
-    },
-    {
-      "name": "Ternary",
-      "problemIndex": "D",
-      "submitMinutes": 108,
-      "points": 1
-    },
-    {
-      "name": "Stack Overflowers",
-      "problemIndex": "D",
-      "submitMinutes": 55,
-      "points": 1
-    },
-    {
-      "name": "404",
-      "problemIndex": "D",
-      "submitMinutes": 74,
-      "points": 1
-    },
-    {
-      "name": "Infinte Loopers",
-      "problemIndex": "D",
-      "submitMinutes": 56,
-      "points": 1
-    },
-    {
-      "name": "Quick Ninjas",
-      "problemIndex": "D",
-      "submitMinutes": 95,
-      "points": 0
-    },
-    {
-      "name": "Bug Squashers",
-      "problemIndex": "D",
-      "submitMinutes": 111,
-      "points": 1
-    },
-    {
-      "name": "Binary Beasts",
-      "problemIndex": "D",
-      "submitMinutes": 58,
-      "points": 1
-    },
-    {
-      "name": "Null",
-      "problemIndex": "D",
-      "submitMinutes": 76,
-      "points": 1
-    },
-    {
-      "name": "Code Queens",
-      "problemIndex": "D",
-      "submitMinutes": 75,
-      "points": 1
-    },
-    {
-      "name": "Debuggers",
-      "problemIndex": "D",
-      "submitMinutes": 56,
-      "points": 1
-    },
-    {
-      "name": "JetBrains",
       "problemIndex": "D",
       "submitMinutes": 22,
       "points": 1
     },
     {
+      "name": "Bit Busters",
+      "problemIndex": "D",
+      "submitMinutes": 24,
+      "points": 1
+    },
+    {
+      "name": "Byte Bandits",
+      "problemIndex": "D",
+      "submitMinutes": 21,
+      "points": 1
+    },
+    {
+      "name": "HackStreet Boys",
+      "problemIndex": "D",
+      "submitMinutes": 74,
+      "points": 1
+    },
+    {
+      "name": "Codestallation",
+      "problemIndex": "D",
+      "submitMinutes": 84,
+      "points": 1
+    },
+    {
+      "name": "Ternary",
+      "problemIndex": "D",
+      "submitMinutes": 107,
+      "points": 1
+    },
+    {
+      "name": "Stack Overflowers",
+      "problemIndex": "D",
+      "submitMinutes": 95,
+      "points": 1
+    },
+    {
+      "name": "404",
+      "problemIndex": "D",
+      "submitMinutes": 42,
+      "points": 1
+    },
+    {
+      "name": "Infinte Loopers",
+      "problemIndex": "D",
+      "submitMinutes": 19,
+      "points": 1
+    },
+    {
+      "name": "Quick Ninjas",
+      "problemIndex": "D",
+      "submitMinutes": 18,
+      "points": 1
+    },
+    {
+      "name": "Bug Squashers",
+      "problemIndex": "D",
+      "submitMinutes": 46,
+      "points": 1
+    },
+    {
+      "name": "Binary Beasts",
+      "problemIndex": "D",
+      "submitMinutes": 100,
+      "points": 1
+    },
+    {
+      "name": "Null",
+      "problemIndex": "D",
+      "submitMinutes": 66,
+      "points": 1
+    },
+    {
+      "name": "Code Queens",
+      "problemIndex": "D",
+      "submitMinutes": 50,
+      "points": 1
+    },
+    {
+      "name": "Debuggers",
+      "problemIndex": "D",
+      "submitMinutes": 76,
+      "points": 1
+    },
+    {
+      "name": "JetBrains",
+      "problemIndex": "D",
+      "submitMinutes": 59,
+      "points": 1
+    },
+    {
       "name": "Zzz...",
       "problemIndex": "D",
-      "submitMinutes": 60,
-      "points": 1
+      "submitMinutes": 109,
+      "points": 0
     },
     {
       "name": "Python4Dessert",
       "problemIndex": "D",
-      "submitMinutes": 29,
-      "points": 0
+      "submitMinutes": 69,
+      "points": 1
     },
     {
       "name": "Shift+Del+U",
       "problemIndex": "D",
-      "submitMinutes": 104,
+      "submitMinutes": 94,
       "points": 1
     },
     {
-      "name": "CodeRunners",
-      "problemIndex": "B",
-      "submitMinutes": 66,
+      "name": "CodeCrafters",
+      "problemIndex": "A",
+      "submitMinutes": 31,
       "points": 0
     },
     {
-      "name": "CodeCrafters",
-      "problemIndex": "B",
+      "name": "Ctrl+Shift+Code",
+      "problemIndex": "A",
       "submitMinutes": 58,
       "points": 0
     },
     {
       "name": "JurySmashers",
-      "problemIndex": "B",
-      "submitMinutes": 48,
-      "points": 1
-    },
-    {
-      "name": "Bit Busters",
-      "problemIndex": "B",
-      "submitMinutes": 58,
-      "points": 1
-    },
-    {
-      "name": "Byte Bandits",
-      "problemIndex": "B",
-      "submitMinutes": 30,
-      "points": 1
-    },
-    {
-      "name": "Ternary",
-      "problemIndex": "B",
-      "submitMinutes": 118,
-      "points": 1
-    },
-    {
-      "name": "404",
-      "problemIndex": "B",
-      "submitMinutes": 32,
-      "points": 1
-    },
-    {
-      "name": "Bug Squashers",
-      "problemIndex": "B",
-      "submitMinutes": 73,
-      "points": 1
-    },
-    {
-      "name": "Zzz...",
-      "problemIndex": "B",
-      "submitMinutes": 118,
+      "problemIndex": "A",
+      "submitMinutes": 116,
       "points": 0
     },
     {
-      "name": "Syntax Terror",
-      "problemIndex": "C",
-      "submitMinutes": 117,
-      "points": 1
-    },
-    {
-      "name": "Monkey Players",
-      "problemIndex": "C",
-      "submitMinutes": 109,
-      "points": 1
-    },
-    {
-      "name": "See_Plus+",
-      "problemIndex": "C",
-      "submitMinutes": 110,
-      "points": 1
-    },
-    {
-      "name": "JThweb",
-      "problemIndex": "C",
-      "submitMinutes": 34,
-      "points": 1
-    },
-    {
       "name": "Bit Busters",
-      "problemIndex": "C",
-      "submitMinutes": 8,
+      "problemIndex": "A",
+      "submitMinutes": 27,
       "points": 0
     },
     {
       "name": "HackStreet Boys",
-      "problemIndex": "C",
-      "submitMinutes": 55,
-      "points": 0
+      "problemIndex": "A",
+      "submitMinutes": 50,
+      "points": 1
+    },
+    {
+      "name": "Codestallation",
+      "problemIndex": "A",
+      "submitMinutes": 107,
+      "points": 1
     },
     {
       "name": "Ternary",
-      "problemIndex": "C",
-      "submitMinutes": 35,
+      "problemIndex": "A",
+      "submitMinutes": 9,
       "points": 0
     },
     {
-      "name": "Quick Ninjas",
-      "problemIndex": "C",
-      "submitMinutes": 73,
-      "points": 1
+      "name": "Stack Overflowers",
+      "problemIndex": "A",
+      "submitMinutes": 43,
+      "points": 0
     },
     {
       "name": "Bug Squashers",
-      "problemIndex": "C",
-      "submitMinutes": 7,
-      "points": 1
+      "problemIndex": "A",
+      "submitMinutes": 84,
+      "points": 0
     },
     {
       "name": "Binary Beasts",
-      "problemIndex": "C",
-      "submitMinutes": 17,
+      "problemIndex": "A",
+      "submitMinutes": 69,
+      "points": 0
+    },
+    {
+      "name": "Code Queens",
+      "problemIndex": "A",
+      "submitMinutes": 108,
+      "points": 0
+    },
+    {
+      "name": "Debuggers",
+      "problemIndex": "A",
+      "submitMinutes": 43,
+      "points": 1
+    },
+    {
+      "name": "JetBrains",
+      "problemIndex": "A",
+      "submitMinutes": 23,
+      "points": 0
+    },
+    {
+      "name": "Zzz...",
+      "problemIndex": "A",
+      "submitMinutes": 9,
+      "points": 1
+    },
+    {
+      "name": "Python4Dessert",
+      "problemIndex": "A",
+      "submitMinutes": 119,
       "points": 1
     },
     {
       "name": "CodeCrafters",
       "problemIndex": "E",
-      "submitMinutes": 105,
+      "submitMinutes": 15,
+      "points": 0
+    },
+    {
+      "name": "Runtime Terror",
+      "problemIndex": "E",
+      "submitMinutes": 50,
+      "points": 0
+    },
+    {
+      "name": "AlgoRythm",
+      "problemIndex": "E",
+      "submitMinutes": 52,
       "points": 1
     },
     {
-      "name": "Ctrl+Shift+Code",
+      "name": "Monkey Players",
       "problemIndex": "E",
-      "submitMinutes": 37,
+      "submitMinutes": 118,
+      "points": 0
+    },
+    {
+      "name": "See_Plus+",
+      "problemIndex": "E",
+      "submitMinutes": 50,
       "points": 1
     },
     {
-      "name": "Codestallation",
+      "name": "JThweb",
       "problemIndex": "E",
-      "submitMinutes": 28,
+      "submitMinutes": 6,
       "points": 0
     },
     {
       "name": "Stack Overflowers",
       "problemIndex": "E",
-      "submitMinutes": 109,
+      "submitMinutes": 93,
       "points": 1
     },
     {
-      "name": "Bug Squashers",
+      "name": "404",
       "problemIndex": "E",
-      "submitMinutes": 108,
+      "submitMinutes": 64,
       "points": 1
+    },
+    {
+      "name": "Quick Ninjas",
+      "problemIndex": "E",
+      "submitMinutes": 52,
+      "points": 0
     },
     {
       "name": "Binary Beasts",
       "problemIndex": "E",
-      "submitMinutes": 43,
-      "points": 1
-    },
-    {
-      "name": "Null",
-      "problemIndex": "E",
-      "submitMinutes": 108,
+      "submitMinutes": 9,
       "points": 0
-    },
-    {
-      "name": "Code Queens",
-      "problemIndex": "E",
-      "submitMinutes": 15,
-      "points": 1
     },
     {
       "name": "Debuggers",
       "problemIndex": "E",
-      "submitMinutes": 25,
+      "submitMinutes": 34,
+      "points": 1
+    },
+    {
+      "name": "JetBrains",
+      "problemIndex": "E",
+      "submitMinutes": 113,
       "points": 0
     },
     {
       "name": "Shift+Del+U",
       "problemIndex": "E",
-      "submitMinutes": 95,
+      "submitMinutes": 71,
       "points": 1
     },
     {
       "name": "CodeRunners",
       "problemIndex": "F",
-      "submitMinutes": 87,
-      "points": 1
+      "submitMinutes": 14,
+      "points": 0
+    },
+    {
+      "name": "CodeCrafters",
+      "problemIndex": "F",
+      "submitMinutes": 31,
+      "points": 0
+    },
+    {
+      "name": "Syntax Terror",
+      "problemIndex": "F",
+      "submitMinutes": 114,
+      "points": 0
     },
     {
       "name": "Ctrl+Shift+Code",
       "problemIndex": "F",
-      "submitMinutes": 28,
+      "submitMinutes": 40,
       "points": 0
     },
     {
       "name": "Monkey Players",
       "problemIndex": "F",
-      "submitMinutes": 60,
+      "submitMinutes": 24,
       "points": 0
     },
     {
       "name": "See_Plus+",
       "problemIndex": "F",
-      "submitMinutes": 51,
+      "submitMinutes": 65,
       "points": 1
     },
     {
       "name": "Bit Busters",
       "problemIndex": "F",
-      "submitMinutes": 76,
+      "submitMinutes": 79,
       "points": 0
     },
     {
-      "name": "Quick Ninjas",
+      "name": "HackStreet Boys",
       "problemIndex": "F",
-      "submitMinutes": 88,
+      "submitMinutes": 20,
+      "points": 0
+    },
+    {
+      "name": "Ternary",
+      "problemIndex": "F",
+      "submitMinutes": 75,
+      "points": 0
+    },
+    {
+      "name": "Stack Overflowers",
+      "problemIndex": "F",
+      "submitMinutes": 101,
+      "points": 1
+    },
+    {
+      "name": "Infinte Loopers",
+      "problemIndex": "F",
+      "submitMinutes": 31,
       "points": 1
     },
     {
       "name": "Bug Squashers",
       "problemIndex": "F",
-      "submitMinutes": 86,
+      "submitMinutes": 98,
       "points": 1
     },
     {
       "name": "Binary Beasts",
       "problemIndex": "F",
-      "submitMinutes": 44,
+      "submitMinutes": 116,
       "points": 0
     },
     {
-      "name": "JetBrains",
+      "name": "Debuggers",
       "problemIndex": "F",
-      "submitMinutes": 115,
+      "submitMinutes": 13,
       "points": 0
     },
     {
-      "name": "Shift+Del+U",
+      "name": "Zzz...",
       "problemIndex": "F",
-      "submitMinutes": 80,
+      "submitMinutes": 53,
+      "points": 1
+    },
+    {
+      "name": "CodeRunners",
+      "problemIndex": "G",
+      "submitMinutes": 25,
+      "points": 1
+    },
+    {
+      "name": "Syntax Terror",
+      "problemIndex": "G",
+      "submitMinutes": 37,
       "points": 0
     },
     {
       "name": "Runtime Terror",
       "problemIndex": "G",
-      "submitMinutes": 85,
+      "submitMinutes": 30,
       "points": 0
+    },
+    {
+      "name": "Ctrl+Shift+Code",
+      "problemIndex": "G",
+      "submitMinutes": 29,
+      "points": 1
     },
     {
       "name": "JurySmashers",
       "problemIndex": "G",
       "submitMinutes": 6,
-      "points": 0
+      "points": 1
     },
     {
       "name": "Monkey Players",
       "problemIndex": "G",
-      "submitMinutes": 9,
-      "points": 0
+      "submitMinutes": 33,
+      "points": 1
     },
     {
       "name": "See_Plus+",
       "problemIndex": "G",
-      "submitMinutes": 84,
-      "points": 0
+      "submitMinutes": 67,
+      "points": 1
     },
     {
       "name": "JThweb",
       "problemIndex": "G",
-      "submitMinutes": 109,
+      "submitMinutes": 110,
       "points": 1
     },
     {
-      "name": "Bit Busters",
+      "name": "Codestallation",
       "problemIndex": "G",
-      "submitMinutes": 116,
-      "points": 1
+      "submitMinutes": 28,
+      "points": 0
     },
     {
       "name": "Ternary",
       "problemIndex": "G",
-      "submitMinutes": 70,
+      "submitMinutes": 16,
       "points": 1
     },
     {
-      "name": "Binary Beasts",
+      "name": "Infinte Loopers",
       "problemIndex": "G",
-      "submitMinutes": 69,
+      "submitMinutes": 17,
       "points": 1
     },
     {
-      "name": "Zzz...",
+      "name": "Bug Squashers",
       "problemIndex": "G",
-      "submitMinutes": 66,
-      "points": 0
+      "submitMinutes": 98,
+      "points": 1
     },
     {
-      "name": "Shift+Del+U",
+      "name": "Null",
       "problemIndex": "G",
       "submitMinutes": 92,
       "points": 1
+    },
+    {
+      "name": "JetBrains",
+      "problemIndex": "G",
+      "submitMinutes": 75,
+      "points": 1
+    },
+    {
+      "name": "Python4Dessert",
+      "problemIndex": "G",
+      "submitMinutes": 62,
+      "points": 0
+    },
+    {
+      "name": "CodeRunners",
+      "problemIndex": "H",
+      "submitMinutes": 63,
+      "points": 1
+    },
+    {
+      "name": "CodeCrafters",
+      "problemIndex": "H",
+      "submitMinutes": 60,
+      "points": 0
+    },
+    {
+      "name": "Runtime Terror",
+      "problemIndex": "H",
+      "submitMinutes": 81,
+      "points": 0
+    },
+    {
+      "name": "Monkey Players",
+      "problemIndex": "H",
+      "submitMinutes": 74,
+      "points": 1
+    },
+    {
+      "name": "JThweb",
+      "problemIndex": "H",
+      "submitMinutes": 8,
+      "points": 0
+    },
+    {
+      "name": "Codestallation",
+      "problemIndex": "H",
+      "submitMinutes": 48,
+      "points": 0
+    },
+    {
+      "name": "Ternary",
+      "problemIndex": "H",
+      "submitMinutes": 46,
+      "points": 0
+    },
+    {
+      "name": "Stack Overflowers",
+      "problemIndex": "H",
+      "submitMinutes": 48,
+      "points": 1
+    },
+    {
+      "name": "Bug Squashers",
+      "problemIndex": "H",
+      "submitMinutes": 113,
+      "points": 0
+    },
+    {
+      "name": "Binary Beasts",
+      "problemIndex": "H",
+      "submitMinutes": 77,
+      "points": 1
+    },
+    {
+      "name": "Null",
+      "problemIndex": "H",
+      "submitMinutes": 19,
+      "points": 0
+    },
+    {
+      "name": "JetBrains",
+      "problemIndex": "H",
+      "submitMinutes": 29,
+      "points": 1
+    },
+    {
+      "name": "Python4Dessert",
+      "problemIndex": "H",
+      "submitMinutes": 73,
+      "points": 1
+    },
+    {
+      "name": "CodeRunners",
+      "problemIndex": "I",
+      "submitMinutes": 90,
+      "points": 1
+    },
+    {
+      "name": "CodeCrafters",
+      "problemIndex": "I",
+      "submitMinutes": 92,
+      "points": 0
+    },
+    {
+      "name": "Ctrl+Shift+Code",
+      "problemIndex": "I",
+      "submitMinutes": 86,
+      "points": 0
+    },
+    {
+      "name": "See_Plus+",
+      "problemIndex": "I",
+      "submitMinutes": 111,
+      "points": 0
+    },
+    {
+      "name": "Bit Busters",
+      "problemIndex": "I",
+      "submitMinutes": 81,
+      "points": 1
+    },
+    {
+      "name": "HackStreet Boys",
+      "problemIndex": "I",
+      "submitMinutes": 117,
+      "points": 1
+    },
+    {
+      "name": "Codestallation",
+      "problemIndex": "I",
+      "submitMinutes": 87,
+      "points": 1
+    },
+    {
+      "name": "Ternary",
+      "problemIndex": "I",
+      "submitMinutes": 79,
+      "points": 0
+    },
+    {
+      "name": "Infinte Loopers",
+      "problemIndex": "I",
+      "submitMinutes": 95,
+      "points": 0
+    },
+    {
+      "name": "Null",
+      "problemIndex": "I",
+      "submitMinutes": 40,
+      "points": 0
+    },
+    {
+      "name": "Code Queens",
+      "problemIndex": "I",
+      "submitMinutes": 23,
+      "points": 0
+    },
+    {
+      "name": "JetBrains",
+      "problemIndex": "I",
+      "submitMinutes": 75,
+      "points": 0
     }
   ]
 }

@@ -9,7 +9,7 @@ contest = {
     "penaltyMinutes": 15
 }
 
-problems = [{"index": chr(ord('A') + i), "points": 1} for i in range(8)]
+problems = [{"index": chr(ord('A') + i), "points": 1} for i in range(9)]
 problem_indices = [p["index"] for p in problems]
 
 # Contestants

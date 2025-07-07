@@ -9,7 +9,7 @@ contest = {
     "penaltyMinutes": 15
 }
 
-problems = [{"index": chr(ord('A') + i), "points": 1} for i in range(8)]
+problems = [{"index": chr(ord('A') + i), "points": 1} for i in range(9)]
 problem_indices = [p["index"] for p in problems]
 
 # Contestants
@@ -47,13 +47,13 @@ submissions.append(make_submission(chosen_team, only_one_correct_problem, 1))
 
 # Almost all teams submit almost_all_correct_problem (some wrong)
 for name in team_names:
-    correct = 1 if random.random() < 0.9 else 0  # 90% correct
+    correct = 1 if random.random() < 0.84 else 0  # 90% correct
     submissions.append(make_submission(name, almost_all_correct_problem, correct))
 
 # Remaining problems: random submissions and outcomes
 for problem in remaining_problems:
     for name in team_names:
-        if random.random() < 0.4:  # 40% chance this team submits this problem
+        if random.random() < 0.45:  # 40% chance this team submits this problem
             correct = random.randint(0, 1)
             submissions.append(make_submission(name, problem, correct))
 
