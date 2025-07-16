@@ -26,12 +26,12 @@ The input JSON should have the format as the following example:
     "freezeDurationMinutes": 30,
     "penaltyMinutes": 20
   },
-  "problems": \[
+  "problems": [
     {"index": "A",
       "points": 1
     }
   ],
-  "contestants": \[
+  "contestants": [
     {
       "name": "MIT",
       "logo": "img/mit.png",
@@ -48,7 +48,7 @@ The input JSON should have the format as the following example:
       "rank": "novice"
     }
   ],
-  "submissions": \[
+  "submissions": [
     {
       "name": "MIT",
       "problemIndex": "A",
